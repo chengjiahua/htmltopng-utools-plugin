@@ -1,0 +1,26 @@
+{
+  "pluginName": "HTML转图片",
+  "version": "1.0.0",
+  "description": "将 HTML 代码或文件转化为高清图片",
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "html-to-image",
+      "explain": "HTML 转图片 - 将 HTML 代码或文件转化为高清图片",
+      "cmds": [
+        "html转图片",
+        "html2image",
+        "html to image",
+        {
+          "type": "files",
+          "fileType": "file",
+          "accept": ".html,.txt,.htm",
+          "maxLength": 1,
+          "label": "HTML 转图片"
+        }
+      ]
+    }
+  ]
+}
